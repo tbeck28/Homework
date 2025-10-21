@@ -1,0 +1,39 @@
+body {
+    background-color: tan;
+}
+
+header {
+    padding: 10px;
+}
+
+#songs li{
+    font-family: fantasy;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-family: fantasy;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-small;
+    line-height: 1.5;
+}
+
+img {
+    height: 250px;
+}
+
+.box {
+    background-image: -webkit-linear-gradient(	#e2d5f1, #526d85);
+    border: 2px solid #00207f;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 5px;
+}
+
+footer li{
+    text-transform: capitalize;
+}
