@@ -1,0 +1,85 @@
+html {
+  background-color: antiquewhite;
+}
+
+body {
+  text-align: center;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+img {
+  height: 100%;
+  max-width: 500px;
+}
+
+div {
+  border: 2px solid burlywood;
+  margin: 10px;
+}
+
+#introPic {
+  width: 50%;
+  height: 50%;
+}
+
+#about-me {
+}
+
+#about-me>li {
+  padding: 2px;
+  list-style-position: inside;
+}
+
+#pro {
+  width: auto;
+}
+
+
+
+
+@media (max-width:376px) {
+  
+  html {
+  background-color: antiquewhite;
+}
+
+body {
+  text-align: center;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+img {
+  height: 50%;
+  width: 50%;
+}
+
+div {
+  border: 2px solid burlywood;
+  margin: 10px;
+}
+
+#introPic {
+
+}
+
+#about-me {
+  border: 2px solid black;
+  float: right;
+}
+
+#about-me>li {
+  padding: 2px;
+}
+
+#pro {
+  width: auto;
+}
+}
