@@ -303,19 +303,30 @@ const postData = [
 
 
 // create a list of user 5 posts
-const user5 = [];
+/*const user5 = [];
 postData.forEach(person => {
     if(person.userId === 5){
         user5.push(person.body)
     }
 })
+*/
 
+const user5Posts = postData.filter((post => post.userId === 5));
+console.log(user5Posts)
 
 // then create a list of the title and body pairs
 
-const pairs = [];
+/*const pairs = [];
 postData.forEach(user =>{
   if(user.userId === 5){
     console.log(`user 5 title: ${user.title} and body: ${user.body}`)
   }
-})
+})*/
+
+const pairs = postData.map((post => {
+  return {
+    title: post.title,
+    body: post.body
+  }
+}))
+console.log(pairs)

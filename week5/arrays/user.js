@@ -236,9 +236,15 @@ const userData = [
 const phone = userData.map(user => user.phone)
 console.log(phone)
 
+
+
 // create and print a list of website and email pairs(pair them in a string array or object)
 
-
+/*
 userData.forEach(user => {
     console.log(`The company's email is${user.email} and their website is ${user.website}`)
 })
+*/
+
+const compData = userData.map((user) => `${user.website}, ${user.email}`)
+console.log(compData)

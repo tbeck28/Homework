@@ -302,12 +302,16 @@ const newData = [
 ]
 
 // create a list of user 3 to do
-const user3 = []
+/*const user3 = []
 newData.forEach(person => {
   if(person.userId === 3){
     user3.push(person.title)
   }
 })
+console.log(user3)
+*/
+
+const user3 = newData.filter(task => task.userId ===3);
 console.log(user3)
 
 
